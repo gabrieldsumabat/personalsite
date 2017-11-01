@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% load i18n staticfiles mezzanine_tags blog_tags %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title_wrapper%}
+{% endblock %}
+{% block all_content %}
+{% block left_wrapper%}
+{% endblock %}
+
+{% block main_wrapper%}
+
+{% endblock %}
+
+{% block right_wrapper%}
+{% endblock %}
+<!-- *****************************************************************************************************************
+	 HEADERWRAP
+	 ***************************************************************************************************************** -->
+	<div id="headerwrap">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h1>Hire Gabriel!</h1>
+					<h5>You can find my resume and all professional links on this site.</h5>
+					<h5>Find my personal work and thoughts on Github and my blog.</h5>				
+				</div>
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /headerwrap -->
+
+	<!-- *****************************************************************************************************************
+	 SERVICE LOGOS
+	 ***************************************************************************************************************** -->
+	 <div id="service">
+	 	<div class="container">
+ 			<div class="row centered">
+ 				<div class="col-md-4">
+ 					<i class="fa fa-trophy"></i>
+ 					<h4>Result Oriented</h4>
+ 					<p>Focusing on the key resources to ensure an optimal solution is the baseline to any business. I actively compete in esports and engineering competitions aiming for the top.</p>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<i class="fa fa-heart"></i>
+ 					<h4>Client Focused</h4>
+ 					<p>The heart of any great business is their clients. I have an exemplementry service record working directly with valued clients.</p>
+ 				</div>
+ 				<div class="col-md-4">
+ 					<i class="fa fa-flask"></i>
+ 					<h4>Data Driven</h4>
+ 					<p>I firmly rely on scientific methodologies when proving solutions to clients. My academic background includes Machine Learning, Networks and Control Systems. </p>
+ 				</div>		 				
+	 		</div>
+	 	</div><! --/container -->
+	 </div><! --/service -->
+	<!-- *****************************************************************************************************************
+	 TESTIMONIALS
+	 ***************************************************************************************************************** -->
+	 <div id="twrap">
+	 	<div class="container centered">
+	 		<div class="row">
+	 			<div class="col-lg-8 col-lg-offset-2">
+	 			<i class="fa fa-comment-o"></i>
+				<h4>Communication</h4>
+	 			<p>The ability to effectively communicate ideas is often overlooked in a technical field. From door to door sales to client conference calls, I have proven myself to be able to convey complex technical topics to others retaining the key details while ensuring the simplicity of the function.  </p>
+	 			</div>
+	 		</div><! --/row -->
+	 	</div><! --/container -->
+	 </div><! --/twrap -->
+{% endblock %}
